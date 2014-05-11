@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Scott Diedrick"]
   s.email       = ["swalterd@gmail.com"]
+  s.licenses    = ['MIT']
   s.homepage    = "http://github.com/swalterd/sunspot_submodel_index"
   s.summary     = %q{Support for Sunspot indexing of Rails models when an associated model is updated or deleted.}
   s.description = %q{This gem ties into the Rails model lifecycle to add support for calling Sunspot index on another model when data it relies on for its index is from an associated model.}
