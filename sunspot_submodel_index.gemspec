@@ -14,12 +14,12 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "sunspot_submodel_index"
   
-  s.add_development_dependency "rspec"
-  s.add_development_dependency("rake", [">=0.8.7"])
-  s.add_development_dependency("sqlite3", [">= 0"])
+  s.add_development_dependency("rspec",["~> 2.6"])
+  s.add_development_dependency("rake", [">=0.9.2"])
+  s.add_development_dependency("sqlite3", ["~> 1.3"])
   s.add_development_dependency("activerecord", [">= 2.2"])
   s.add_development_dependency("activesupport", [">= 2.2"])
-  s.add_development_dependency("mocha", [">= 0.9.5"])
+  s.add_development_dependency("mocha", ["~> 0.10"])
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
